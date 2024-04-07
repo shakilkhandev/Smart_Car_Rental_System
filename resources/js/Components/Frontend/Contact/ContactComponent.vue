@@ -9,13 +9,7 @@
         style="background-image: url('https://images.unsplash.com/photo-1613214149922-f1809c99b414?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <h2 class="page-title">get in touch with us</h2>
-                    <ol class="page-list">
-                        <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
-                        <li>contact</li>
-                    </ol>
-                </div>
+               
             </div>
         </div>
     </section>

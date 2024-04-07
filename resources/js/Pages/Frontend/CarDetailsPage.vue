@@ -199,7 +199,7 @@ const createRent = () => {
                             <div class="widget widget-all-cars">
                                 <h4 class="widget-title">Our Latest Cars</h4>
                                 <ul class="cars-list">
-                                    <li v-for="(car, index) in cars" :key="car.id">
+                                    <li v-for="(car) in cars" :key="car.id">
                                         <Link :href="route('show.car.details', { id: car.id })">{{ car.name
                                         }}-(Daily:-{{
                                             car.daily_rent_price }}/-BDT)</Link>

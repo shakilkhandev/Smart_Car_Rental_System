@@ -4,17 +4,17 @@ const authUser = usePage().props.authCustomer.customer;
 </script>
 
 <template>
-    <header class="header-section bg-neutral-700">
+    <header class="header-section">
         <div class="header-bottom">
             <div class="container">
-                <nav class="navbar navbar-expand-lg p-0">
+                <nav class="navbar navbar-expand-lg bg-secondary  ">
                     <Link href="" class="navbar-brand">
-                    <h3 class="text-light"><i class="fa fa-car" style="margin-right: 5px;"></i>Car Rent</h3>
+                    <h3 class="text-light "><i class="fa fa-car" style="margin-right: 5px;"></i>Car Rent</h3>
                     </Link>
 
                     <div class="collapse navbar-collapse">
-                        <ul class="navbar-nav main-menu m-auto">
-                            <li class="nav-item">
+                        <ul class="navbar-nav main-menu m-auto ">
+                            <li class="nav-item ">
                                 <Link :href="route('show.home')">Home</Link>
                             </li>
                             <li>
@@ -38,10 +38,3 @@ const authUser = usePage().props.authCustomer.customer;
         </div><!-- header-bottom end -->
     </header>
 </template>
-
-<style scoped>
-.header_nav{
-    color: red;
-    /* border-bottom: 1px solid red; */
-}
-</style>

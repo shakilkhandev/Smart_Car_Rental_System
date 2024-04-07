@@ -149,9 +149,10 @@ const saveRent = () => {
                         <div class="col-md-6 col-12" v-for="car in cars" :key="car.id">
                             <div class="car-item car-item--style2">
                                 <div>
-                                    <img :src="car?.image ? `/storage/${car?.image}` : 'https://skala.or.id/wp-content/uploads/2024/01/dummy-post-square-1-1.jpg'"
+                                    <img :src=" car?.image ? `/storage/${car?.image}` : 'https://skala.or.id/wp-content/uploads/2024/01/dummy-post-square-1-1.jpg'"
                                         alt="car image" style="width: 250px; height: 300px; object-fit: cover;">
                                 </div>
+                             
                                 <div class="car-item-body">
                                     <div class="content">
                                         <h4 class="title">{{ car.name }}</h4>

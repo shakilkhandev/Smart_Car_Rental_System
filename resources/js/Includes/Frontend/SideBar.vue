@@ -6,7 +6,7 @@ const authUser = usePage().props.authCustomer.customer;
 <template>
     <div class="sidebar1 pe-4 pb-3">
         <nav class="navbar navbar-secondary">
-            <Link href="" class="navbar-brand mx-4 mb-3">
+            <Link href="/" class="navbar-brand mx-4 mb-3">
             <h3 class="text-light"><i class="fa fa-car" style="margin-right: 5px;"></i>Car Rent</h3>
             </Link>
             <div class="d-flex align-items-center ms-4 mb-4">

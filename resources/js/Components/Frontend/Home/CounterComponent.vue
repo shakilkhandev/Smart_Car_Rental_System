@@ -1,13 +1,13 @@
 <script setup>
 import { usePage } from '@inertiajs/vue3';
 const list = usePage();
-const car_count = list.props.car_count || [];
+const car_count = list.props.car_count || "00" ;
 const customer_count = list.props.customer_count || [];
 </script>
 
 <template>
     <div class="counter-section bg_img overlay-main"
-        style="background-image: url('https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');">
+        style="background-image: url('https://elitecarbd.com/wp-content/uploads/2024/05/Toyota-premio-2006.jpg');">
         <div class="container">
             <div class="row mb-none-30">
                 <div class="col-lg-6 col-sm-6">

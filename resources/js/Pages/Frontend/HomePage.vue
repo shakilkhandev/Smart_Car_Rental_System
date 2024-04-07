@@ -9,7 +9,7 @@ import CounterComponent from '../../Components/Frontend/Home/CounterComponent.vu
 
 <template>
     <Head>
-        <title> Car Rent || Home</title>
+        <title>Smart Car Rental System by Shakil Khan</title>
     </Head>
 
     <GuestLayout>

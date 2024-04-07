@@ -63,9 +63,7 @@ const saveRent = () => {
     <!-- banner-section start  -->
     <section
         class="banner-section banner-section--style2 bg_img banner-image"
-        style="
-            background-image: url('https://images.pexels.com/photos/7900343/pexels-photo-7900343.jpeg');
-        "
+       
     >
         <div class="container">
             <div class="row align-items-center">
@@ -178,4 +176,9 @@ const saveRent = () => {
     <!-- banner-section end  -->
 </template>
 
-<style scoped></style>
+<style scoped>
+
+.banner-section {
+    background-image: url(/image/hero-background-car.jpg);
+}
+</style>
